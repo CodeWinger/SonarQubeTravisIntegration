@@ -16,4 +16,9 @@ public class AppTest {
     	new App(5).get();
     }
     
+    @Test
+    public void testMain() {
+    	App.main(null);
+    }
+    
 }
