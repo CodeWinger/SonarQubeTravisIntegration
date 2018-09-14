@@ -2,14 +2,10 @@ package some.project.testing;
 
 import org.junit.Test;
 
-import junit.framework.TestCase;
-
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{   
+public class AppTest {   
     @Test
     public void xLessThan0Test() {
     	new App(-5).get();
